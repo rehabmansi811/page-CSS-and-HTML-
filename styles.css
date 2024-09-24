@@ -30,7 +30,13 @@ h4 {
     padding: 15px;
     color: var(--subheader-color);
 }
-
+article{
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 /* Back to Top Button */
 #backToTop {
     display: none;
